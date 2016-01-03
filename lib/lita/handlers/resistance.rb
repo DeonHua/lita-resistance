@@ -38,7 +38,7 @@ module Lita
           end and return
         end
 
-        @gameNum++
+        @gameNum = @gameNum + 1
 
         # Form teams
         spies = all_users.sample((all_users.length+2)/3)
